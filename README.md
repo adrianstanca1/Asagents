@@ -1,20 +1,44 @@
 <a href="https://chat.vercel.ai/">
   <img alt="Next.js 14 and App Router-ready AI chatbot." src="app/(chat)/opengraph-image.png">
-  <h1 align="center">Chat SDK</h1>
+  <h1 align="center">Asagents AI Chatbot</h1>
 </a>
 
 <p align="center">
-    Chat SDK is a free, open-source template built with Next.js and the AI SDK that helps you quickly build powerful chatbot applications.
+    Asagents is a powerful AI chatbot application built with Next.js and the AI SDK that provides intelligent conversational experiences.
 </p>
 
 <p align="center">
-  <a href="https://chat-sdk.dev"><strong>Read Docs</strong></a> ·
+  <a href="#quick-start"><strong>Quick Start</strong></a> ·
   <a href="#features"><strong>Features</strong></a> ·
-  <a href="#model-providers"><strong>Model Providers</strong></a> ·
   <a href="#deploy-your-own"><strong>Deploy Your Own</strong></a> ·
-  <a href="#running-locally"><strong>Running locally</strong></a>
+  <a href="#running-locally"><strong>Running locally</strong></a> ·
+  <a href="./DEPLOYMENT.md"><strong>Deployment Guide</strong></a>
 </p>
 <br/>
+
+## 🚀 Quick Start
+
+Get Asagents running in minutes:
+
+```bash
+# 1. Clone and install
+git clone https://github.com/adrianstanca1/Asagents.git
+cd Asagents
+pnpm install
+
+# 2. Setup environment
+cp .env.example .env.local
+# Edit .env.local with your AUTH_SECRET and XAI_API_KEY
+
+# 3. Build and run
+pnpm build
+pnpm start
+```
+
+**Quick Build Test**: Run `./build-test.sh` to automatically verify your setup!
+
+**One-Click Deploy**: [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fadri
+anstanca1%2FAsagents)
 
 ## Features
 
